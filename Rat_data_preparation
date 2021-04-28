@@ -1,0 +1,97 @@
+# Rat data preparation
+# -----------------------------
+
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_1/TibiaPZ1wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_2/TibiaPZ1wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_3/TibiaPZ1wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_4/TibiaPZ1wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_5/TibiaPZ1wk_5
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_1/TibiaHZ1wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_2/TibiaHZ1wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_3/TibiaHZ1wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_4/TibiaHZ1wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_5/TibiaHZ1wk_5
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_1/TibiaPZ4wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_2/TibiaPZ4wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_3/TibiaPZ4wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_4/TibiaPZ4wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_5/TibiaPZ4wk_5
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_1/TibiaHZ4wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_2/TibiaHZ4wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_3/TibiaHZ4wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_4/TibiaHZ4wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_5/TibiaHZ4wk_5
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_1/PhalanxPZ1wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_2/PhalanxPZ1wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_3/PhalanxPZ1wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_4/PhalanxPZ1wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_5/PhalanxPZ1wk_5
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_1/PhalanxHZ1wk_1
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_2/PhalanxHZ1wk_2
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_3/PhalanxHZ1wk_3
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_4/PhalanxHZ1wk_4
+mkdir /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_5/PhalanxHZ1wk_5
+
+cd /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/
+cat SRR7218111_1.fastq.gz SRR7218112_1.fastq.gz SRR7218113_1.fastq.gz SRR7218114_1.fastq.gz SRR7218115_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_1/TibiaPZ1wk_1_1.fastq.gz
+cat SRR7218116_1.fastq.gz SRR7218117_1.fastq.gz SRR7218118_1.fastq.gz SRR7218119_1.fastq.gz SRR7218120_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_2/TibiaPZ1wk_2_1.fastq.gz
+cat SRR7218121_1.fastq.gz SRR7218122_1.fastq.gz SRR7218123_1.fastq.gz SRR7218124_1.fastq.gz SRR7218125_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_3/TibiaPZ1wk_3_1.fastq.gz
+cat SRR7218126_1.fastq.gz SRR7218127_1.fastq.gz SRR7218128_1.fastq.gz SRR7218129_1.fastq.gz SRR7218130_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_4/TibiaPZ1wk_4_1.fastq.gz
+cat SRR7218131_1.fastq.gz SRR7218132_1.fastq.gz SRR7218133_1.fastq.gz SRR7218134_1.fastq.gz SRR7218135_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_5/TibiaPZ1wk_5_1.fastq.gz
+cat SRR7218136_1.fastq.gz SRR7218137_1.fastq.gz SRR7218138_1.fastq.gz SRR7218139_1.fastq.gz SRR7218140_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_1/TibiaHZ1wk_1_1.fastq.gz
+cat SRR7218141_1.fastq.gz SRR7218142_1.fastq.gz SRR7218143_1.fastq.gz SRR7218144_1.fastq.gz SRR7218145_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_2/TibiaHZ1wk_2_1.fastq.gz
+cat SRR7218146_1.fastq.gz SRR7218147_1.fastq.gz SRR7218148_1.fastq.gz SRR7218149_1.fastq.gz SRR7218150_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_3/TibiaHZ1wk_3_1.fastq.gz
+cat SRR7218151_1.fastq.gz SRR7218152_1.fastq.gz SRR7218153_1.fastq.gz SRR7218154_1.fastq.gz SRR7218155_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_4/TibiaHZ1wk_4_1.fastq.gz
+cat SRR7218156_1.fastq.gz SRR7218157_1.fastq.gz SRR7218158_1.fastq.gz SRR7218159_1.fastq.gz SRR7218160_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_5/TibiaHZ1wk_5_1.fastq.gz
+cat SRR7218161_1.fastq.gz SRR7218162_1.fastq.gz SRR7218163_1.fastq.gz SRR7218164_1.fastq.gz SRR7218165_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_1/TibiaPZ4wk_1_1.fastq.gz
+cat SRR7218166_1.fastq.gz SRR7218167_1.fastq.gz SRR7218168_1.fastq.gz SRR7218169_1.fastq.gz SRR7218170_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_2/TibiaPZ4wk_2_1.fastq.gz
+cat SRR7218171_1.fastq.gz SRR7218172_1.fastq.gz SRR7218173_1.fastq.gz SRR7218174_1.fastq.gz SRR7218175_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_3/TibiaPZ4wk_3_1.fastq.gz
+cat SRR7218176_1.fastq.gz SRR7218177_1.fastq.gz SRR7218178_1.fastq.gz SRR7218179_1.fastq.gz SRR7218180_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_4/TibiaPZ4wk_4_1.fastq.gz
+cat SRR7218181_1.fastq.gz SRR7218182_1.fastq.gz SRR7218183_1.fastq.gz SRR7218184_1.fastq.gz SRR7218185_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_5/TibiaPZ4wk_5_1.fastq.gz
+cat SRR7218186_1.fastq.gz SRR7218187_1.fastq.gz SRR7218188_1.fastq.gz SRR7218189_1.fastq.gz SRR7218190_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_1/TibiaHZ4wk_1_1.fastq.gz
+cat SRR7218191_1.fastq.gz SRR7218192_1.fastq.gz SRR7218193_1.fastq.gz SRR7218194_1.fastq.gz SRR7218195_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_2/TibiaHZ4wk_2_1.fastq.gz
+cat SRR7218196_1.fastq.gz SRR7218197_1.fastq.gz SRR7218198_1.fastq.gz SRR7218199_1.fastq.gz SRR7218200_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_3/TibiaHZ4wk_3_1.fastq.gz
+cat SRR7218201_1.fastq.gz SRR7218202_1.fastq.gz SRR7218203_1.fastq.gz SRR7218204_1.fastq.gz SRR7218205_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_4/TibiaHZ4wk_4_1.fastq.gz
+cat SRR7218206_1.fastq.gz SRR7218207_1.fastq.gz SRR7218208_1.fastq.gz SRR7218209_1.fastq.gz SRR7218210_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_5/TibiaHZ4wk_5_1.fastq.gz
+cat SRR7218211_1.fastq.gz SRR7218212_1.fastq.gz SRR7218213_1.fastq.gz SRR7218214_1.fastq.gz SRR7218215_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_1/PhalanxPZ1wk_1_1.fastq.gz
+cat SRR7218216_1.fastq.gz SRR7218217_1.fastq.gz SRR7218218_1.fastq.gz SRR7218219_1.fastq.gz SRR7218220_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_2/PhalanxPZ1wk_2_1.fastq.gz
+cat SRR7218221_1.fastq.gz SRR7218222_1.fastq.gz SRR7218223_1.fastq.gz SRR7218224_1.fastq.gz SRR7218225_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_3/PhalanxPZ1wk_3_1.fastq.gz
+cat SRR7218226_1.fastq.gz SRR7218227_1.fastq.gz SRR7218228_1.fastq.gz SRR7218229_1.fastq.gz SRR7218230_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_4/PhalanxPZ1wk_4_1.fastq.gz
+cat SRR7218231_1.fastq.gz SRR7218232_1.fastq.gz SRR7218233_1.fastq.gz SRR7218234_1.fastq.gz SRR7218235_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_5/PhalanxPZ1wk_5_1.fastq.gz
+cat SRR7218236_1.fastq.gz SRR7218237_1.fastq.gz SRR7218238_1.fastq.gz SRR7218239_1.fastq.gz SRR7218240_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_1/PhalanxHZ1wk_1_1.fastq.gz
+cat SRR7218241_1.fastq.gz SRR7218242_1.fastq.gz SRR7218243_1.fastq.gz SRR7218244_1.fastq.gz SRR7218245_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_2/PhalanxHZ1wk_2_1.fastq.gz
+cat SRR7218246_1.fastq.gz SRR7218247_1.fastq.gz SRR7218248_1.fastq.gz SRR7218249_1.fastq.gz SRR7218250_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_3/PhalanxHZ1wk_3_1.fastq.gz
+cat SRR7218251_1.fastq.gz SRR7218252_1.fastq.gz SRR7218253_1.fastq.gz SRR7218254_1.fastq.gz SRR7218255_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_4/PhalanxHZ1wk_4_1.fastq.gz
+cat SRR7218256_1.fastq.gz SRR7218257_1.fastq.gz SRR7218258_1.fastq.gz SRR7218259_1.fastq.gz SRR7218260_1.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_5/PhalanxHZ1wk_5_1.fastq.gz
+
+cat SRR7218111_2.fastq.gz SRR7218112_2.fastq.gz SRR7218113_2.fastq.gz SRR7218114_2.fastq.gz SRR7218115_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_1/TibiaPZ1wk_1_2.fastq.gz
+cat SRR7218116_2.fastq.gz SRR7218117_2.fastq.gz SRR7218118_2.fastq.gz SRR7218119_2.fastq.gz SRR7218120_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_2/TibiaPZ1wk_2_2.fastq.gz
+cat SRR7218121_2.fastq.gz SRR7218122_2.fastq.gz SRR7218123_2.fastq.gz SRR7218124_2.fastq.gz SRR7218125_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_3/TibiaPZ1wk_3_2.fastq.gz
+cat SRR7218126_2.fastq.gz SRR7218127_2.fastq.gz SRR7218128_2.fastq.gz SRR7218129_2.fastq.gz SRR7218130_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_4/TibiaPZ1wk_4_2.fastq.gz
+cat SRR7218131_2.fastq.gz SRR7218132_2.fastq.gz SRR7218133_2.fastq.gz SRR7218134_2.fastq.gz SRR7218135_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ1wk_5/TibiaPZ1wk_5_2.fastq.gz
+cat SRR7218136_2.fastq.gz SRR7218137_2.fastq.gz SRR7218138_2.fastq.gz SRR7218139_2.fastq.gz SRR7218140_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_1/TibiaHZ1wk_1_2.fastq.gz
+cat SRR7218141_2.fastq.gz SRR7218142_2.fastq.gz SRR7218143_2.fastq.gz SRR7218144_2.fastq.gz SRR7218145_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_2/TibiaHZ1wk_2_2.fastq.gz
+cat SRR7218146_2.fastq.gz SRR7218147_2.fastq.gz SRR7218148_2.fastq.gz SRR7218149_2.fastq.gz SRR7218150_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_3/TibiaHZ1wk_3_2.fastq.gz
+cat SRR7218151_2.fastq.gz SRR7218152_2.fastq.gz SRR7218153_2.fastq.gz SRR7218154_2.fastq.gz SRR7218155_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_4/TibiaHZ1wk_4_2.fastq.gz
+cat SRR7218156_2.fastq.gz SRR7218157_2.fastq.gz SRR7218158_2.fastq.gz SRR7218159_2.fastq.gz SRR7218160_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ1wk_5/TibiaHZ1wk_5_2.fastq.gz
+cat SRR7218161_2.fastq.gz SRR7218162_2.fastq.gz SRR7218163_2.fastq.gz SRR7218164_2.fastq.gz SRR7218165_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_1/TibiaPZ4wk_1_2.fastq.gz
+cat SRR7218166_2.fastq.gz SRR7218167_2.fastq.gz SRR7218168_2.fastq.gz SRR7218169_2.fastq.gz SRR7218170_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_2/TibiaPZ4wk_2_2.fastq.gz
+cat SRR7218171_2.fastq.gz SRR7218172_2.fastq.gz SRR7218173_2.fastq.gz SRR7218174_2.fastq.gz SRR7218175_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_3/TibiaPZ4wk_3_2.fastq.gz
+cat SRR7218176_2.fastq.gz SRR7218177_2.fastq.gz SRR7218178_2.fastq.gz SRR7218179_2.fastq.gz SRR7218180_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_4/TibiaPZ4wk_4_2.fastq.gz
+cat SRR7218181_2.fastq.gz SRR7218182_2.fastq.gz SRR7218183_2.fastq.gz SRR7218184_2.fastq.gz SRR7218185_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaPZ4wk_5/TibiaPZ4wk_5_2.fastq.gz
+cat SRR7218186_2.fastq.gz SRR7218187_2.fastq.gz SRR7218188_2.fastq.gz SRR7218189_2.fastq.gz SRR7218190_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_1/TibiaHZ4wk_1_2.fastq.gz
+cat SRR7218191_2.fastq.gz SRR7218192_2.fastq.gz SRR7218193_2.fastq.gz SRR7218194_2.fastq.gz SRR7218195_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_2/TibiaHZ4wk_2_2.fastq.gz
+cat SRR7218196_2.fastq.gz SRR7218197_2.fastq.gz SRR7218198_2.fastq.gz SRR7218199_2.fastq.gz SRR7218200_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_3/TibiaHZ4wk_3_2.fastq.gz
+cat SRR7218201_2.fastq.gz SRR7218202_2.fastq.gz SRR7218203_2.fastq.gz SRR7218204_2.fastq.gz SRR7218205_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_4/TibiaHZ4wk_4_2.fastq.gz
+cat SRR7218206_2.fastq.gz SRR7218207_2.fastq.gz SRR7218208_2.fastq.gz SRR7218209_2.fastq.gz SRR7218210_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/TibiaHZ4wk_5/TibiaHZ4wk_5_2.fastq.gz
+cat SRR7218211_2.fastq.gz SRR7218212_2.fastq.gz SRR7218213_2.fastq.gz SRR7218214_2.fastq.gz SRR7218215_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_1/PhalanxPZ1wk_1_2.fastq.gz
+cat SRR7218216_2.fastq.gz SRR7218217_2.fastq.gz SRR7218218_2.fastq.gz SRR7218219_2.fastq.gz SRR7218220_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_2/PhalanxPZ1wk_2_2.fastq.gz
+cat SRR7218221_2.fastq.gz SRR7218222_2.fastq.gz SRR7218223_2.fastq.gz SRR7218224_2.fastq.gz SRR7218225_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_3/PhalanxPZ1wk_3_2.fastq.gz
+cat SRR7218226_2.fastq.gz SRR7218227_2.fastq.gz SRR7218228_2.fastq.gz SRR7218229_2.fastq.gz SRR7218230_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_4/PhalanxPZ1wk_4_2.fastq.gz
+cat SRR7218231_2.fastq.gz SRR7218232_2.fastq.gz SRR7218233_2.fastq.gz SRR7218234_2.fastq.gz SRR7218235_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxPZ1wk_5/PhalanxPZ1wk_5_2.fastq.gz
+cat SRR7218236_2.fastq.gz SRR7218237_2.fastq.gz SRR7218238_2.fastq.gz SRR7218239_2.fastq.gz SRR7218240_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_1/PhalanxHZ1wk_1_2.fastq.gz
+cat SRR7218241_2.fastq.gz SRR7218242_2.fastq.gz SRR7218243_2.fastq.gz SRR7218244_2.fastq.gz SRR7218245_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_2/PhalanxHZ1wk_2_2.fastq.gz
+cat SRR7218246_2.fastq.gz SRR7218247_2.fastq.gz SRR7218248_2.fastq.gz SRR7218249_2.fastq.gz SRR7218250_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_3/PhalanxHZ1wk_3_2.fastq.gz
+cat SRR7218251_2.fastq.gz SRR7218252_2.fastq.gz SRR7218253_2.fastq.gz SRR7218254_2.fastq.gz SRR7218255_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_4/PhalanxHZ1wk_4_2.fastq.gz
+cat SRR7218256_2.fastq.gz SRR7218257_2.fastq.gz SRR7218258_2.fastq.gz SRR7218259_2.fastq.gz SRR7218260_2.fastq.gz > /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/ratchondro_bulk/raw_data/PhalanxHZ1wk_5/PhalanxHZ1wk_5_2.fastq.gz
+

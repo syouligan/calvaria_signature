@@ -1,0 +1,14 @@
+# Get files from GEO/SRA
+# ---------------------------
+
+# Make list of SRR numbers
+
+# Download files locally
+while read line; do
+prefetch $line;
+done < /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/humanorgan_bulk/raw_data/SRR.numbers
+
+# Extract and split fastqs into forward and reverse seqs
+while read line; do
+fastq-dump --split-files --origfmt --gzip /home/scoyou/ncbi/public/sra/$line'.sra';
+done < /share/ScratchGeneral/scoyou/scott_projects/osteochondro_signature/data/humanchondro_bulk/raw_data/SRR.numbers
