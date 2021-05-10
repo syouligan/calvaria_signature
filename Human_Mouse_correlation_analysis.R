@@ -60,7 +60,7 @@ ggplot(hm_coactive, aes(x=log2_humanchondro_mean_FPKM, y=log2_mousechondro_mean_
   geom_smooth(method = 'lm', se = TRUE) +
   theme_classic() +
   theme(aspect.ratio = 1) +
-  ggsave("project_results/humanchondro_bulk/correlations/Mouse_human_correlation_overall.pdf")
+  ggsave("project_results/humanchondro_bulk/correlations/Mouse_human_correlation_overall.png")
 
 COR <- round(cor(hm_coactive$log2_humanchondro_mean_FPKM, hm_coactive$log2_ratchondro_mean_FPKM, method = 'sp', use = "complete.obs"), 2)
 
@@ -71,7 +71,7 @@ ggplot(hm_coactive, aes(x=log2_humanchondro_mean_FPKM, y=log2_ratchondro_mean_FP
   geom_smooth(method = 'lm', se = TRUE) +
   theme_classic() +
   theme(aspect.ratio = 1) +
-  ggsave("project_results/humanchondro_bulk/correlations/Rat_human_correlation_overall.pdf")
+  ggsave("project_results/humanchondro_bulk/correlations/Rat_human_correlation_overall.png")
 
 COR <- round(cor(hm_coactive$log2_mousechondro_mean_FPKM, hm_coactive$log2_ratchondro_mean_FPKM, method = 'sp', use = "complete.obs"), 2)
 
@@ -82,7 +82,7 @@ ggplot(hm_coactive, aes(x=log2_mousechondro_mean_FPKM, y=log2_ratchondro_mean_FP
   geom_smooth(method = 'lm', se = TRUE) +
   theme_classic() +
   theme(aspect.ratio = 1) +
-  ggsave("project_results/humanchondro_bulk/correlations/Mouse_rat_correlation_overall.pdf")
+  ggsave("project_results/humanchondro_bulk/correlations/Mouse_rat_correlation_overall.png")
 
 # Correlation across key GO biological processes 
 # --------------------------------------------------------------------------
